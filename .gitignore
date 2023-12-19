@@ -2,5 +2,6 @@
 .venv
 
 ## DBT-related
+target
 logs
 .user.yml
