@@ -35,3 +35,4 @@ password – "your_password_here"
 maintenance database – "postgres"
 ```
 7. Connect to your server and create a new database for DBT usage.
+8. Fill the empty fields of `profiles.yml`'s `default` profile with your admin user's password, database name, and schema name.
