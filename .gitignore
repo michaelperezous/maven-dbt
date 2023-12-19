@@ -1,1 +1,6 @@
+## Python-related
 .venv
+
+## DBT-related
+logs
+.user.yml
