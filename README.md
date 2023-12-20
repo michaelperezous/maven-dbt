@@ -41,7 +41,8 @@ maintenance database – "postgres"
 
 ## Exercises
 
-1. Create models in `models/lifetime` to calculate lifetime sales metrics for products, customers, and stores.
+1. Create models in `models/lifetime` to calculate lifetime sales metrics for products and stores.
+  a. **Extra**: Calculate top performing products by store alongside top-level financial metrics.
 2. Create models in `models/annual` to calculate the same metrics on an annual basis.
   a. **Extra**: Use models from (1) to add fields for how annual metrics contribute to lifetime metrics, e.g. % of lifetime revenue.
 3. Assuming the current date is the date of the most recent sale, create models in `models/prior_year` to calculate the same metrics over the past year and their YoY growth.
