@@ -1,4 +1,4 @@
-Store_ID,Store_Name,Store_City,Store_Location,Store_Open_Date,Latitude,Longitude
+store_id,store_name,store_city,store_location,store_open_date,latitude,longitude
 1,Maven Toys Guadalajara 1,Guadalajara,Residential,9/18/92,20.6752,-103.349609
 2,Maven Toys Monterrey 1,Monterrey,Residential,4/27/95,25.6866,-100.3161
 3,Maven Toys Guadalajara 2,Guadalajara,Commercial,12/27/99,20.6752,-103.349609
