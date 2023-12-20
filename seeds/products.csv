@@ -1,4 +1,4 @@
-Product_ID,Product_Name,Product_Category,Product_Cost,Product_Price
+product_id,product_name,product_category,product_cost,product_price
 1,Action Figure,Toys,9.99,15.99
 2,Animal Figures,Toys,9.99,12.99
 3,Barrel O' Slime,Art & Crafts,1.99,3.99
