@@ -37,9 +37,11 @@ maintenance database – "postgres"
 7. Connect to your server and create a new database for DBT usage.
 8. Fill the empty fields of `profiles.yml`'s `default` profile with your admin user's password, database name, and schema name.
 9. From the same directory as `dbt_project.yml` and `profiles.yml`, run `dbt debug` to confirm your profile is correctly configured.
-10. Seed your database with `dbt seed`. This will take a while given the size of the `sales` dataset. **Note**: Seeding raw data for a table such as `toy_stores` is not considered DBT best practices, but is leveraged here for reusability.
+10. Seed your database with `dbt seed`. This will take a while given the size of the `sales` dataset. **Note**: Seeding raw data for a table such as `sales` is not considered DBT best practices, but is leveraged here for reusability.
 
 ## Exercises
 
 1. Create models in `models/lifetime` to calculate lifetime sales metrics for products, customers, and stores.
 2. Create models in `models/annual` to calculate the same metrics on an annual basis.
+  a. **Extra**: Use models from (1) to add fields for how annual metrics contribute to lifetime metrics, e.g. % of lifetime revenue.
+3. Assuming the current date is the date of the most recent sale, create models in `models/prior_year` to calculate the same metrics over the past year and their YoY growth.
