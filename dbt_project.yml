@@ -1,2 +1,13 @@
-name: 'maven-dbt'
+name: 'maven_dbt'
+config-version: 2
+version: 1.0.0
 profile: 'default'
+analysis-paths: [analyses]
+test-paths: [tests]
+seed-paths: [seeds]
+macro-paths: [macros]
+snapshot-paths: [snapshots]
+target-path: target
+clean-targets: [target, dbt_packages]
+model-paths: ["models"]
+quoting: {identifier: true, schema: true, database: false}
