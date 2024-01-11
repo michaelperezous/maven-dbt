@@ -1,6 +1,4 @@
 {{config(
-    catalog = 'hive',
-    schema = 'preview_trino',
     materialize = 'view'
 )}}
 with store_sales_by_product as (

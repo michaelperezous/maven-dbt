@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: postgres
+    database: postgresql
+    schema: customer_demo
+    tables:
+      - name: toy_products
+      - name: toy_stores
+  - name: snowflake
+    database: Snowflake
+    schema: CUSTOMER_DEMO
+    tables:
+      - name: TOY_SALES
